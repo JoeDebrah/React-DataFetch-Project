@@ -1,4 +1,4 @@
-/*After reviewing, if you want to add your won variables for your 
+/*After reviewing, if you want to add your own variables for your 
 index.html to look a certain way, fell free to do so, on Monday we'll
 look at your added variables and implement them in the final styles.css
 we collectively decide on*/
@@ -24,7 +24,7 @@ body {
 indes.html, for example if you click on your name, it should take you 
 to your index.html if you have it in tha same folder*/
 .button {
-  border: none;
+  border-radius: 5px;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -33,7 +33,7 @@ to your index.html if you have it in tha same folder*/
   font-size: 16px;
   font-family: monospace;
   margin: 4px 2px;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
   cursor: pointer;
 }
 /*This is the button sub definition which draws from .button again, 
@@ -51,6 +51,11 @@ see how they work*/
 .button1:hover {
   background-color: #4CAF50;
   color: white;
+}
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 /* now these are the variables you can use in your index.html 
 like i said, fell free to add more if needed*/
